@@ -1,0 +1,165 @@
+/* Los estilos para .center, .stem y .petal2 siguen siendo los mismos que ya has definido */
+
+.center3 {
+    position: absolute;
+    top: 35%;
+    left: 57%;
+    width: 70px;
+    /* Tamaño del círculo central */
+    height: 70px;
+    background-color: #802f0a;
+    /* Color del círculo central (amarillo) */
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    /* Establece un valor de z-index mayor que el del tallo */
+}
+
+.stem3 {
+    position: absolute;
+    top: 29%;
+    /* Ajusta la posición vertical de la parte superior del tallo */
+    left: 50%;
+    width: 10px;
+    height: 300px;
+    /* Ajusta la altura de la parte superior del tallo */
+    background-color: #228B22;
+    border-radius: 0px;
+    transform-origin: bottom center;
+    /* Establece el punto de origen de la rotación en la parte superior */
+    transform: translateX(0%) rotate(20deg);
+    /* Rota -45 grados hacia la izquierda al hacer hover */
+
+    z-index: 0;
+}
+
+
+/* Estilos para los pétalos (sin necesidad de reglas CSS para cada pétalo) */
+.petal3 {
+    position: absolute;
+    width: 15px;
+    /* Ancho de los pétalos */
+    height: 60px;
+    /* Alto de los pétalos */
+    background-color: #FFD700;
+    /* Color de los pétalos (amarillo) */
+    border-radius: 50%;
+    transform-origin: 30% 50%;
+    top: 29%;
+    left: 57%;
+    z-index: 1;
+}
+
+/* Define reglas de estilo específicas para pantallas pequeñas */
+@media screen and (max-width: 768px) {
+    .center3 {
+        width: 15%;
+        padding-top: 15%;
+    }
+
+    .stem3 {
+        width: 2%;
+        height: 15%;
+    }
+
+    .petal3 {
+        width: 6%;
+        height: 12%;
+    }
+}
+
+.petal3:nth-child(1) {
+    transform: rotate(0deg) translateY(-55px);
+}
+
+.petal3:nth-child(2) {
+    transform: rotate(15deg) translateY(-55px);
+}
+
+.petal3:nth-child(3) {
+    transform: rotate(30deg) translateY(-55px);
+}
+
+.petal3:nth-child(4) {
+    transform: rotate(45deg) translateY(-55px);
+}
+
+.petal3:nth-child(5) {
+    transform: rotate(60deg) translateY(-55px);
+}
+
+.petal3:nth-child(6) {
+    transform: rotate(75deg) translateY(-55px);
+}
+
+.petal3:nth-child(7) {
+    transform: rotate(90deg) translateY(-55px);
+}
+
+.petal3:nth-child(8) {
+    transform: rotate(105deg) translateY(-55px);
+}
+
+.petal3:nth-child(9) {
+    transform: rotate(120deg) translateY(-55px);
+}
+
+.petal3:nth-child(10) {
+    transform: rotate(135deg) translateY(-55px);
+}
+
+.petal3:nth-child(11) {
+    transform: rotate(150deg) translateY(-55px);
+}
+
+.petal3:nth-child(12) {
+    transform: rotate(165deg) translateY(-55px);
+}
+
+.petal3:nth-child(13) {
+    transform: rotate(180deg) translateY(-55px);
+}
+
+.petal3:nth-child(14) {
+    transform: rotate(195deg) translateY(-55px);
+}
+
+.petal3:nth-child(15) {
+    transform: rotate(210deg) translateY(-55px);
+}
+
+.petal3:nth-child(16) {
+    transform: rotate(225deg) translateY(-55px);
+}
+
+.petal3:nth-child(17) {
+    transform: rotate(240deg) translateY(-55px);
+}
+
+.petal3:nth-child(18) {
+    transform: rotate(255deg) translateY(-55px);
+}
+
+.petal3:nth-child(19) {
+    transform: rotate(270deg) translateY(-55px);
+}
+
+.petal3:nth-child(20) {
+    transform: rotate(285deg) translateY(-55px);
+}
+
+.petal3:nth-child(21) {
+    transform: rotate(300deg) translateY(-55px);
+}
+
+.petal3:nth-child(22) {
+    transform: rotate(315deg) translateY(-55px);
+}
+
+.petal3:nth-child(23) {
+    transform: rotate(330deg) translateY(-55px);
+}
+
+.petal3:nth-child(24) {
+    transform: rotate(345deg) translateY(-55px);
+}

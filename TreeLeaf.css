@@ -1,0 +1,362 @@
+/* Estilo para el triángulo en forma de hoja */
+.leaf {
+    width: 5px;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid #0f6104;
+    /* Color verde para la hoja */
+    position: absolute;
+    top: 34%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    transform: rotate(180deg);
+    z-index: 1;
+    /* Añade una capa z para que la línea esté detrás */
+}
+
+/* Estilo para la línea en el medio del triángulo */
+.leaf::after {
+    content: "";
+    width: 50%;
+    height: 100px;
+    /* Ancho y color de la línea */
+    background-color: #0c8556;
+    /* Color marrón para la línea */
+    position: absolute;
+    top: 15%;
+    left: 0;
+    transform: translateY(-0%);
+    z-index: -1;
+    /* Añade una capa z detrás del triángulo */
+}
+
+/* Estilo para el triángulo en forma de hoja */
+.leaf2 {
+    width: 5px;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid #0f6104;
+    /* Color verde para la hoja */
+    position: absolute;
+    top: 36%;
+    left: 41%;
+    transform: translate(-50%, -50%);
+    transform: rotate(180deg);
+    z-index: 0;
+    /* Añade una capa z para que la línea esté detrás */
+}
+
+/* Estilo para la línea en el medio del triángulo */
+.leaf2::after {
+    content: "";
+    width: 50%;
+    height: 100px;
+    /* Ancho y color de la línea */
+    background-color: #0c8556;
+    /* Color marrón para la línea */
+    position: absolute;
+    top: 15%;
+    left: 0;
+    transform: translateY(-0%);
+    z-index: -1;
+    /* Añade una capa z detrás del triángulo */
+}
+
+/* Estilo para el triángulo en forma de hoja inclinado a 45 grados */
+.leaf3 {
+    width: 5px;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid #0f6104;
+    /* Color verde para la hoja */
+    position: absolute;
+    top: 40%;
+    left: 39%;
+    transform: translate(-50%, -50%) rotate(240deg);
+    /* Rotación a 45 grados */
+    z-index: 0;
+}
+
+
+/* Estilo para la línea en el medio del triángulo */
+.leaf3::after {
+    content: "";
+    width: 50%;
+    height: 100px;
+    /* Ancho y color de la línea */
+    background-color: #0c8556;
+    /* Color marrón para la línea */
+    position: absolute;
+    top: 15%;
+    left: 0;
+    transform: translateY(-0%);
+    z-index: -1;
+    /* Añade una capa z detrás del triángulo */
+}
+
+/* Estilo para el triángulo en forma de hoja inclinado a 45 grados */
+.leaf4 {
+    width: 5px;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid #0f6104;
+    /* Color verde para la hoja */
+    position: absolute;
+    top: 45%;
+    left: 42%;
+    transform: translate(-50%, -50%) rotate(210deg);
+    /* Rotación a 45 grados */
+    z-index: 0;
+}
+
+
+/* Estilo para la línea en el medio del triángulo */
+.leaf4::after {
+    content: "";
+    width: 50%;
+    height: 100px;
+    /* Ancho y color de la línea */
+    background-color: #0c8556;
+    /* Color marrón para la línea */
+    position: absolute;
+    top: 15%;
+    left: 0;
+    transform: translateY(-0%);
+    z-index: -1;
+    /* Añade una capa z detrás del triángulo */
+}
+
+/* Estilo para el triángulo en forma de hoja inclinado a 45 grados */
+.leaf5 {
+    width: 5px;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid #0f6104;
+    /* Color verde para la hoja */
+    position: absolute;
+    top: 40%;
+    left: 52%;
+    transform: translate(-50%, -50%) rotate(160deg);
+    /* Rotación a 45 grados */
+    z-index: 0;
+}
+
+
+/* Estilo para la línea en el medio del triángulo */
+.leaf5::after {
+    content: "";
+    width: 50%;
+    height: 100px;
+    /* Ancho y color de la línea */
+    background-color: #0c8556;
+    /* Color marrón para la línea */
+    position: absolute;
+    top: 15%;
+    left: 0;
+    transform: translateY(-0%);
+    z-index: -1;
+    /* Añade una capa z detrás del triángulo */
+}
+
+/* Estilo para el triángulo en forma de hoja inclinado a 45 grados */
+.leaf6 {
+    width: 5px;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid #0f6104;
+    /* Color verde para la hoja */
+    position: absolute;
+    top: 45%;
+    left: 56%;
+    transform: translate(-50%, -50%) rotate(160deg);
+    /* Rotación a 45 grados */
+    z-index: 0;
+}
+
+
+/* Estilo para la línea en el medio del triángulo */
+.leaf6::after {
+    content: "";
+    width: 50%;
+    height: 100px;
+    /* Ancho y color de la línea */
+    background-color: #0c8556;
+    /* Color marrón para la línea */
+    position: absolute;
+    top: 15%;
+    left: 0;
+    transform: translateY(-0%);
+    z-index: -1;
+    /* Añade una capa z detrás del triángulo */
+}
+
+/* Estilo para el triángulo en forma de hoja inclinado a 45 grados */
+.leaf7 {
+    width: 5px;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid #0f6104;
+    /* Color verde para la hoja */
+    position: absolute;
+    top: 40%;
+    left: 60%;
+    transform: translate(-50%, -50%) rotate(120deg);
+    /* Rotación a 45 grados */
+    z-index: 0;
+}
+
+
+/* Estilo para la línea en el medio del triángulo */
+.leaf7::after {
+    content: "";
+    width: 50%;
+    height: 100px;
+    /* Ancho y color de la línea */
+    background-color: #0c8556;
+    /* Color marrón para la línea */
+    position: absolute;
+    top: 15%;
+    left: 0;
+    transform: translateY(-0%);
+    z-index: -1;
+    /* Añade una capa z detrás del triángulo */
+}
+
+/* Estilo para el triángulo en forma de hoja inclinado a 45 grados */
+.leaf8 {
+    width: 5px;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid #0f6104;
+    /* Color verde para la hoja */
+    position: absolute;
+    top: 35%;
+    left: 61%;
+    transform: translate(-50%, -50%) rotate(100deg);
+    /* Rotación a 45 grados */
+    z-index: 0;
+}
+
+
+/* Estilo para la línea en el medio del triángulo */
+.leaf8::after {
+    content: "";
+    width: 50%;
+    height: 100px;
+    /* Ancho y color de la línea */
+    background-color: #0c8556;
+    /* Color marrón para la línea */
+    position: absolute;
+    top: 15%;
+    left: 0;
+    transform: translateY(-0%);
+    z-index: -1;
+    /* Añade una capa z detrás del triángulo */
+}
+
+/* Estilo para el triángulo en forma de hoja inclinado a 45 grados */
+.leaf9 {
+    width: 5px;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid #0f6104;
+    /* Color verde para la hoja */
+    position: absolute;
+    top: 25%;
+    left: 60%;
+    transform: translate(-50%, -50%) rotate(60deg);
+    /* Rotación a 45 grados */
+    z-index: 0;
+}
+
+
+/* Estilo para la línea en el medio del triángulo */
+.leaf9::after {
+    content: "";
+    width: 50%;
+    height: 100px;
+    /* Ancho y color de la línea */
+    background-color: #0c8556;
+    /* Color marrón para la línea */
+    position: absolute;
+    top: 15%;
+    left: 0;
+    transform: translateY(-0%);
+    z-index: -1;
+    /* Añade una capa z detrás del triángulo */
+}
+
+/* Estilo para el triángulo en forma de hoja inclinado a 45 grados */
+.leaf10 {
+    width: 5px;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid #0f6104;
+    /* Color verde para la hoja */
+    position: absolute;
+    top: 44%;
+    left: 52%;
+    transform: translate(-50%, -50%) rotate(210deg);
+    /* Rotación a 45 grados */
+    z-index: 0;
+}
+
+
+/* Estilo para la línea en el medio del triángulo */
+.leaf10::after {
+    content: "";
+    width: 50%;
+    height: 100px;
+    /* Ancho y color de la línea */
+    background-color: #0c8556;
+    /* Color marrón para la línea */
+    position: absolute;
+    top: 15%;
+    left: 0;
+    transform: translateY(-0%);
+    z-index: -1;
+    /* Añade una capa z detrás del triángulo */
+}
+
+/* Estilo para el triángulo en forma de hoja inclinado a 45 grados */
+.leaf11 {
+    width: 5px;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid #0f6104;
+    /* Color verde para la hoja */
+    position: absolute;
+    top: 27%;
+    left: 40%;
+    transform: translate(-50%, -50%) rotate(300deg);
+    /* Rotación a 45 grados */
+    z-index: 0;
+}
+
+
+/* Estilo para la línea en el medio del triángulo */
+.leaf11::after {
+    content: "";
+    width: 50%;
+    height: 100px;
+    /* Ancho y color de la línea */
+    background-color: #0c8556;
+    /* Color marrón para la línea */
+    position: absolute;
+    top: 15%;
+    left: 0;
+    transform: translateY(-0%);
+    z-index: -1;
+    /* Añade una capa z detrás del triángulo */
+}
